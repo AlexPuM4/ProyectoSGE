@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "g4_bank",
+    'name': "Banco",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Te permite gestionar tus cuentas y movimientos bancarios
+        """,
 
     'description': """
-        Long description of module's purpose
+        Modulo de Aplicacion de Banco
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Grupo4 de 2ºDAM",
+    'website': "https://site.educa.madrid.org/ies.sanjuandelacruz.pozuelodealarcon/",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
