@@ -14,7 +14,7 @@ class Account(models.Model):
     beginBalanceTimestamp = fields.Date(string="Begin Balance Timestamp",required = True)
     typeAccount = fields.Selection(selection=TYPE_ACCOUNT_SELECTION,required = True)
     customer_ids = fields.Many2Many('g4_bank.customer')
-    movement_ids= fields.One2Many('g4_bank.movement','account_id')
+    #movement_ids= fields.One2Many('g4_bank.movement','account_id')
     
 
 #     @api.depends('value')
