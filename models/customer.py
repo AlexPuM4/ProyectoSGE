@@ -5,6 +5,7 @@ from odoo import models, fields, api
 
 class Customer(models.Model):
     _name = 'g4_bank.customer'
+    _inherit = 'res.users'
     _description = 'Customer'
 
     first_name = fields.Char(required = True)
