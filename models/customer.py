@@ -17,7 +17,7 @@ class Customer(models.Model):
     email = fields.Text()
     password = fields.Text()
     
-    account_ids = fields.Many2Many('g4_bank.account')
+    account_ids = fields.Many2many('g4_bank.account')
     
 #     @api.depends('value')
 #     def _value_pc(self):
