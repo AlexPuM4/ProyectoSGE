@@ -40,13 +40,10 @@
     </record>
 -->
     <!-- Top menu item -->
-<!--
     <menuitem name="g4_bank" id="g4_bank.menu_root"/>
--->
     <!-- menu categories -->
 <!--
-    <menuitem name="Menu 1" id="g4_bank.menu_1" parent="g4_bank.menu_root"/>
-    <menuitem name="Menu 2" id="g4_bank.menu_2" parent="g4_bank.menu_root"/>
+    <menuitem name="Account" id="g4_bank.menu_2" parent="g4_bank.menu_root"/>
 -->
     <!-- actions -->
 <!--
