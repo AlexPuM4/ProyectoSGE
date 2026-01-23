@@ -1,19 +1,21 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="g4_bank.list">
-      <field name="name">g4_bank list</field>
-      <field name="model">g4_bank.g4_bank</field>
+
+    <record model="ir.ui.view" id="g4_bank_account_view">
+      <field name="name">Account</field>
+      <field name="model">g4_bank.account</field>
       <field name="arch" type="xml">
         <tree>
           <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="balance"/>
+          <field name="creditLine"/>
+          <field name="beginBalance"/>
+          <field name="beginBalanceTimestamp"/>
+          <field name="typeAccount"/>
         </tree>
       </field>
     </record>
--->
 
     <!-- actions opening views on models -->
 

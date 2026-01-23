@@ -1,19 +1,25 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="g4_bank.list">
-      <field name="name">g4_bank list</field>
-      <field name="model">g4_bank.g4_bank</field>
+
+    <record model="ir.ui.view" id="g4_bank_customer_view">
+      <field name="name">Customer</field>
+      <field name="model">res.users</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="firstName"/>
+          <field name="lastname"/>
+          <field name="middleIntial"/>
+          <field name="street"/>
+          <field name="city"/>
+          <field name="state"/>
+          <field name="zip"/>
+          <field name="phone"/>
+          <field name="email"/>
         </tree>
       </field>
     </record>
--->
+
 
     <!-- actions opening views on models -->
 
